@@ -275,6 +275,10 @@ a:hover {
 .circle {
     padding-right: 17px;
     cursor: pointer;
+    opacity: 0.25;
+}
+.circle:hover {
+    opacity: 1;
 }
 .nav-step_2 a {
     padding-right: 60px;
@@ -331,18 +335,26 @@ a:hover {
 }
 .imagecontrol {
     position: relative;
+    width: 817px;
+    margin: 0 auto;
 }
 .jobcontrol {
     position: relative;
-    margin-left: 311px;
     z-index: 0;
 }
 .playbutton {
     position: absolute;
     z-index: 1;
-    left: 646px;
+    left: 345px;
     top: 145px;
     cursor: pointer;
+}
+.overlaycontrol {
+    position: absolute;
+    width: 817px;
+    height: 434px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
 }
 .hr {
     width: 55px;
