@@ -175,6 +175,9 @@
     width: 64px;
     height: 64px;
 }
+.overlaycontrol {
+    display: none;
+}
 .hr {
     margin-top: 28px;
 }
@@ -538,6 +541,9 @@ footer {
     top: 130px;
     width: 64px;
     height: 64px;
+}
+.overlaycontrol {
+    display: none;
 }
 .hr {
     margin-top: 28px;
